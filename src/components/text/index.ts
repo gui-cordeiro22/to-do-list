@@ -2,7 +2,7 @@
 import { Text } from "./text.component";
 
 // Types
-import { TextProps } from "./text.types";
+import { TextProps, textVariants } from "./text.types";
 
 export { Text };
-export type { TextProps };
+export type { TextProps, textVariants };
