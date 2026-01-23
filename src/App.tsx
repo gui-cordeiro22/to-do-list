@@ -1,5 +1,5 @@
 // Components
-import { Text } from "./components/text";
+import { Text } from "./components/elements/text";
 
 export default function App() {
   return (
