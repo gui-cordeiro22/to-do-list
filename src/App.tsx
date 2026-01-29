@@ -1,6 +1,7 @@
 // Components
 import { Text } from "./components/elements/text";
 import { Icon } from "./components/elements/icon";
+import { Badge } from "./components/elements/badge";
 
 // Assets
 import Trash from "./assets/icons/trash-regular.svg?react";
@@ -25,6 +26,12 @@ export default function App() {
       <Text content="Hello, World!" elementType="p" />
 
       <Icon SvgSource={Trash} className="fill-pink-base" />
+
+      <div>
+        <Badge variant="secondary" content="5" />
+
+        <Badge variant="primary" content="2 de 5" />
+      </div>
     </div>
   );
 }
