@@ -2,11 +2,11 @@
 import { Text } from "./components/elements/text";
 import { Icon } from "./components/elements/icon";
 import { Badge } from "./components/elements/badge";
+import { Button } from "./components/elements/button";
 
 // Assets
 import Trash from "./assets/icons/trash-regular.svg?react";
 import Plus from "./assets/icons/plus-regular.svg?react";
-import { Button } from "./components/elements/button";
 
 export default function App() {
   return (
