@@ -4,8 +4,11 @@ import { FunctionComponent } from "react";
 // Component
 import { Text } from "../text";
 
+// Styles
+import { badgeVariants, badgeTextVariants } from "./badge.styles";
+
 // Types
-import { BadgeProps, badgeTextVariants, badgeVariants } from "./badge.types";
+import { BadgeProps } from "./badge.types";
 
 export const Badge: FunctionComponent<BadgeProps> = ({
   variant,

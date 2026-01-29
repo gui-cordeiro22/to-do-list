@@ -1,8 +1,11 @@
 // Dependencies
 import { createElement, FunctionComponent } from "react";
 
+// Styles
+import { textVariants } from "./text.styles";
+
 // Types
-import { TextProps, textVariants } from "./text.types";
+import { TextProps } from "./text.types";
 
 export const Text: FunctionComponent<TextProps> = ({
   elementType = "span",
