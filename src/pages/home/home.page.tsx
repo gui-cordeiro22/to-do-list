@@ -11,6 +11,7 @@ import { Button } from "../../components/elements/button";
 // Assets
 import Trash from "../../assets/icons/trash-regular.svg?react";
 import Plus from "../../assets/icons/plus-regular.svg?react";
+import { ButtonIcon } from "../../components/elements/button-icon";
 
 export const HomePage: FunctionComponent = () => {
   return (
@@ -43,6 +44,12 @@ export const HomePage: FunctionComponent = () => {
 
           <div>
             <Button label="Nova tarefa" iconCompositions={Plus} />
+          </div>
+
+          <div className="flex gap-1">
+            <ButtonIcon iconCompositions={Trash} />
+            <ButtonIcon variant="secondary" iconCompositions={Trash} />
+            <ButtonIcon variant="tertiary" iconCompositions={Trash} />
           </div>
         </div>
       }
