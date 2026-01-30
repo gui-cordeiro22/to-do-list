@@ -4,12 +4,14 @@ import { FunctionComponent } from "react";
 // Components
 import { Icon } from "../icon";
 
-// Types
-import { ButtonIconProps } from "./button-icon.types";
+// Styles
 import {
   buttonIconIconVariants,
   buttonIconVariants,
 } from "./button-icon.styles";
+
+// Types
+import { ButtonIconProps } from "./button-icon.types";
 
 export const ButtonIcon: FunctionComponent<ButtonIconProps> = ({
   variant,

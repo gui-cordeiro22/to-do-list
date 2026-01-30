@@ -7,17 +7,18 @@ import { Text } from "../../components/elements/text";
 import { Icon } from "../../components/elements/icon";
 import { Badge } from "../../components/elements/badge";
 import { Button } from "../../components/elements/button";
+import { ButtonIcon } from "../../components/elements/button-icon";
+import { InputText } from "../../components/elements/input";
 
 // Assets
 import Trash from "../../assets/icons/trash-regular.svg?react";
 import Plus from "../../assets/icons/plus-regular.svg?react";
-import { ButtonIcon } from "../../components/elements/button-icon";
 
 export const HomePage: FunctionComponent = () => {
   return (
     <Home
       pageContent={
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-10">
           <Text
             className="text-pink-dark"
             content="Hello, World!"
@@ -50,6 +51,10 @@ export const HomePage: FunctionComponent = () => {
             <ButtonIcon iconCompositions={Trash} />
             <ButtonIcon variant="secondary" iconCompositions={Trash} />
             <ButtonIcon variant="tertiary" iconCompositions={Trash} />
+          </div>
+
+          <div>
+            <InputText />
           </div>
         </div>
       }

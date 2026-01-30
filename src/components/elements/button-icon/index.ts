@@ -1,5 +1,5 @@
 // Component
-import { ButtonIcon } from "./button-icon";
+import { ButtonIcon } from "./button-icon.component";
 
 // Types
 import { ButtonIconProps } from "./button-icon.types";
