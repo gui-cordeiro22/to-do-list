@@ -14,6 +14,7 @@ import { InputText } from "../../components/elements/input";
 import Trash from "../../assets/icons/trash-regular.svg?react";
 import Plus from "../../assets/icons/plus-regular.svg?react";
 import { InputCheckbox } from "../../components/elements/input-checkbox";
+import { Card } from "../../components/compositions/card";
 
 export const HomePage: FunctionComponent = () => {
   return (
@@ -60,6 +61,10 @@ export const HomePage: FunctionComponent = () => {
 
           <div>
             <InputCheckbox />
+          </div>
+
+          <div>
+            <Card size="md" content="Olá, mundo!" />
           </div>
         </div>
       }
