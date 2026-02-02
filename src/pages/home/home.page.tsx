@@ -13,6 +13,7 @@ import { InputText } from "../../components/elements/input";
 // Assets
 import Trash from "../../assets/icons/trash-regular.svg?react";
 import Plus from "../../assets/icons/plus-regular.svg?react";
+import { InputCheckbox } from "../../components/elements/input-checkbox";
 
 export const HomePage: FunctionComponent = () => {
   return (
@@ -55,6 +56,10 @@ export const HomePage: FunctionComponent = () => {
 
           <div>
             <InputText />
+          </div>
+
+          <div>
+            <InputCheckbox />
           </div>
         </div>
       }
